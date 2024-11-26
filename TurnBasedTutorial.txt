@@ -1,3 +1,12 @@
+shortcuts
+---
+c - click
+rc - right click
+nf - new folder
+save - ctrl + s
+fs - filesystem
+---
+
 SOURCE
 https://www.youtube.com/watch?v=MAk8usWtD7k&list=PL0swe3EwWBiJcD5AVPt58ecqTrBDr1F5n&index=2
 
@@ -19,3 +28,23 @@ Click "Make Current" to enable the new profile
 Get Assets
 https://hoz14nes.wordpress.com/2017/10/01/dragon-warrior-2/ - 7 enemies at once
 save as dragon_quest_iii_battle.png, open as reference to side
+
+click user Interface - create control (ui) - rename Battle
++ (under scene) - "colorrect" - create
+- inspector - color - "black - #000000"
+"select rect" - middle - layout - full rect
+- rename "Background"
+
+MADE GIT - initial commit
+
+fs - res:// - rc - "nf: Battle"
+- select Battle - save - c Battle - save
+
+fs - res:// - Utility - new script - "NewProjectInitializer.gd"
+- uncomment "tool at top" 
+Scene - New scene - "other node" - add script 
+save scene to Utility - new scene - "NewProjectInitializer"
++ - create Base Node - rc - attach script - "NewProjectInitializer.gd"
+
+
+
