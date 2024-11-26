@@ -1,0 +1,21 @@
+SOURCE
+https://www.youtube.com/watch?v=MAk8usWtD7k&list=PL0swe3EwWBiJcD5AVPt58ecqTrBDr1F5n&index=2
+
+Make Godot Engine 3.5.3 stable
+https://godotengine.org/download/archive/3.5.3-stable/
+
+Open Godot 3.5.3
+> New Project - TurnBasedTutorial > Create Folder > OpenGL ES 3.0 > Create & Edit
+
+Disable 3D in Editor
+Editor > Manage Editor Features
+Click New: "2D"
+Uncheck 
+Enabled Features > 3D Editor &
+Enabled Classes > Nodes > Spatial
+
+Click "Make Current" to enable the new profile
+
+Get Assets
+https://hoz14nes.wordpress.com/2017/10/01/dragon-warrior-2/ - 7 enemies at once
+save as dragon_quest_iii_battle.png, open as reference to side
