@@ -3,6 +3,7 @@ shortcuts
 c - click
 rc - right click
 nf - new folder
+ns - new script
 save - ctrl + s
 fs - filesystem
 ---
@@ -12,6 +13,8 @@ https://www.youtube.com/watch?v=MAk8usWtD7k&list=PL0swe3EwWBiJcD5AVPt58ecqTrBDr1
 
 Make Godot Engine 3.5.3 stable
 https://godotengine.org/download/archive/3.5.3-stable/
+
+## EPISODE 1
 
 Open Godot 3.5.3
 > New Project - TurnBasedTutorial > Create Folder > OpenGL ES 3.0 > Create & Edit
@@ -46,5 +49,27 @@ Scene - New scene - "other node" - add script
 save scene to Utility - new scene - "NewProjectInitializer"
 + - create Base Node - rc - attach script - "NewProjectInitializer.gd"
 
+Validate work.
+Project - Project Settings - 
+- General - Windows (should update size,height)
+- "stretch -  mode: viewpoint, aspect: keep"
+
+input map - "l3" - add
+
+# Create autoloads
+Utility - nf "Autoloads" - ns - "Globals.gd"
+
+autoload - add Debug & Globals from Utility/Autoloads
+---
+
+KEY_F11: toggle_fullscreen()
+KEY_P: get_tree().paused = !get_tree().paused
+KEY_Q: get_tree().quit()
+KEY_R: get_tree().reload_current_scene()
+----
 
 
+click "Battle.tscn" - RUN - "Select Current"
+
+
+## EPISODE 2

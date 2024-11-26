@@ -11,7 +11,13 @@ config_version=4
 [application]
 
 config/name="TurnBasedTutorial"
+run/main_scene="res://Battle/Battle.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Debug="*res://Utility/Autoloads/Debug.gd"
+Globals="*res://Utility/Autoloads/Globals.gd"
 
 [debug]
 
@@ -26,10 +32,21 @@ window/size/height=180
 window/size/borderless=true
 window/size/test_width=960
 window/size/test_height=540
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+stretch/mode=2
+stretch/aspect=1
 
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+l3={
+"deadzone": 0.5,
+"events": [  ]
+}
 
 [physics]
 
